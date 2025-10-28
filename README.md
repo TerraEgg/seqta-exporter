@@ -1,5 +1,5 @@
 # Seqta Exporter
-This tool will allow you to export your timetable to services like google calander
+This tool will allow you to export your timetable to services like google calendar
 
 ## Opening Console
 ### Chrome
@@ -16,14 +16,14 @@ Paste the following snippet into the console
 fetch('https://raw.githubusercontent.com/TerraEgg/seqta-exporter/main/script.js').then(r => r.text()).then(eval);
 ```
 
-## Import to google calander
+## Import to google calendar
 1. **To download the CSV file run:**
 ```javascript 
 downloadCSV()
 ```
-2. Open [The Google Calander Import Section](https://calendar.google.com/calendar/u/0/r/settings/export)
+2. Open [The Google Calendar Import Section](https://calendar.google.com/calendar/u/0/r/settings/export)
 3. Select the **import** section and upload the .csv file
-4. Select the calander you want to import to.
+4. Select the calendar you want to import to.
 5. Click import
 
 ## Can't find fix

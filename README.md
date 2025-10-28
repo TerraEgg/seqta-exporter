@@ -16,7 +16,7 @@ Paste the following snippet into the console
 fetch('https://raw.githubusercontent.com/TerraEgg/seqta-exporter/main/script.js').then(r => r.text()).then(eval);
 ```
 
-## Important to google calander
+## Import to google calander
 1. **To download the CSV file run:**
 ```javascript 
 downloadCSV()
@@ -35,4 +35,4 @@ downloadCSV()
 6. Repeat for every event (class)
 
 ## Motivation
-I original started this project as seqta did not support compatiblity for watch, but I was able to use the calander on my watch. As I was lazy (even though it would be probably quicker to enter it manually) I created this tool to automate the conversion.
+I originally started this project because SEQTA did not support compatibility with my watch, but I was able to use the calendar on my watch. Although it would probably have been quicker to enter the schedule manually, I created this tool out of laziness to automate the conversion.

@@ -13,7 +13,7 @@ This tool will allow you to export your timetable to services like google caland
 ### Pasting
 Paste the following snippet into the console
 ```javascript
-(s = document.createElement('script')).src = 'https://raw.githubusercontent.com/TerraEgg/seqta-exporter/main/script.js', document.head.appendChild(s);
+fetch('https://raw.githubusercontent.com/TerraEgg/seqta-exporter/main/script.js').then(r => r.text()).then(eval);
 ```
 
 ### Important to google calander

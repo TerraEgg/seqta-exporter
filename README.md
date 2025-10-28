@@ -16,7 +16,7 @@ Paste the following snippet into the console
 fetch('https://raw.githubusercontent.com/TerraEgg/seqta-exporter/main/script.js').then(r => r.text()).then(eval);
 ```
 
-### Important to google calander
+## Important to google calander
 1. **To download the CSV file run:**
 ```javascript 
 downloadCSV()

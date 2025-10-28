@@ -13,4 +13,4 @@ This tool will allow you to export your timetable to services like google caland
 ### Pasting
 Paste the following snippet into the console
 ```javascript
-document.head.appendChild(Object.assign(document.createElement('script'), {src: 'TO BE ADDED'}));
+(s = document.createElement('script')).src = 'https://raw.githubusercontent.com/TerraEgg/seqta-exporter/main/script.js', document.head.appendChild(s);

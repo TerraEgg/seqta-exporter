@@ -137,6 +137,5 @@
     console.log('\n If you cant find it odds are you exported the date of a eariler/later part of your timetable, either redownlaod a eariler version or locate it on your calander using the correct date.')
   };
   
-  // Return the data for later (not used)
   return events;
 })();
